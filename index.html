@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codeverse7 | Front-End Developer</title>
+    <style>
+      :root {
+        --bg: #0d1117;
+        --text: #c9d1d9;
+        --accent: #58a6ff;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background-color: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        padding: 2rem;
+      }
+
+      header,
+      section,
+      footer {
+        max-width: 900px;
+        margin: auto;
+        padding: 2rem 0;
+      }
+
+      h1,
+      h2 {
+        color: var(--accent);
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+      }
+
+      .hero {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+
+      .hero p {
+        font-size: 1.1rem;
+        margin-top: 1rem;
+      }
+
+      .skills ul {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+
+      .skills li {
+        background-color: #161b22;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+      }
+
+      .projects .project-card {
+        background-color: #161b22;
+        padding: 1rem;
+        margin: 1rem 0;
+        border-radius: 8px;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 4rem;
+        font-size: 0.9rem;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2>Codeverse7</h2>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Hey, I'm Codeverse7 👋</h1>
+      <p>
+        A passionate front-end developer who loves turning ideas into
+        responsive, user-friendly websites. I care about clean code, great
+        design, and smooth user experience.
+      </p>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+        <li>Web Development</li>
+        <li>Front-End Development</li>
+      </ul>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Landing Page</h3>
+        <p>
+          A sleek and modern landing page design showcasing a product or
+          service. Features include a hero section, call-to-action buttons,
+          smooth scroll navigation, and responsive layout using HTML, CSS, and
+          JavaScript.
+        </p>
+      </div>
+      <div class="project-card">
+        <h3>Coffee Shop Website</h3>
+        <p>
+          A stylish website for a local coffee shop. Includes a homepage, menu
+          section, testimonials, contact form, and Google Maps integration.
+          Built using HTML, CSS Flexbox, and interactive elements with
+          JavaScript.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Want to work together or have a question? <br />Reach out to me on
+        <a href="https://www.fiverr.com">Fiverr</a> or drop an email at:
+        <strong>kuldeepdave1971@gmail.com</strong>
+      </p>
+    </section>
+
+    <footer>
+      <p>© 2025 Codeverse7. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
